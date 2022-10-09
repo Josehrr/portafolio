@@ -17,34 +17,7 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.left-circle{
-    background-color: aqua;
-    position: absolute;
-    height: 15%;
-    width: 20%;
-    top: 72%;
-    margin-left: 82%;
 
-}
-
-.left-circle>img{
-    max-width: 90%;
-    min-height: 90%;
-}
-.right-circle{
-    background-color: bisque;
-    position: absolute;
-    height: 15%;
-    width: 20%;
-    top: 98vh;
-    margin-left: 0vw;
-
-}
-
-.right-circle>img{
-    max-width: 90%;
-    min-height: 90%;
-}
 .h1{
     font-size: 2.5rem;
     font-weight: 600;
@@ -54,7 +27,7 @@ body{
     text-align: center;
 }
 .info-img>img{
-    border-radius: 50%;
+    border-radius: 45%;
     width: 45vw;
 }
 .h2{
@@ -72,7 +45,6 @@ body{
 }
 
 .container{
-    background-color: rgb(200, 23, 56);
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -164,7 +136,7 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-       
+        border-radius: 80%;
      
     }
 
@@ -231,11 +203,14 @@ body{
 .year-3 {
     color: var(--gray);
 }
-.year-p1{
+.year-p1>h6{
+    font-size: 0.8rem;
 }
-.year-p2{
+.year-p2>h6{
+    font-size: 0.8rem;
 }
-.year-p3{
+.year-p3>h6{
+    font-size: 0.8rem;
 }
 
 .year-p1>h6{
@@ -331,6 +306,7 @@ body{
     height: 5vh;
     grid-column: span 2;
     position: relative;
+    top: 7vh;
 }
 .autor>p{
     font-size: 1rem;
@@ -448,7 +424,7 @@ label{
 
     .info-img>img{
         border-radius: 50%;
-        width: 25vw;
+        width: 30vw;
     }
     .h1{
         font-size: 40px;
@@ -653,5 +629,13 @@ label{
         .autor{
             font-size: 1rem;
         }
+        .heart{
+           
+            margin-left: 50vw;
+            bottom: 1.9vh;
+            width: 6vw;
+            height: 3vh;
+        }
+        
     
 }
