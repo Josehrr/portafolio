@@ -17,22 +17,6 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.vector{
-    position: absolute;
-    background-color: darksalmon;
-    width: 30%;
-    margin-top: 98%;
-    margin-left: 85%;
-    
-    
-    
-}
-.vector>img{
-    width: 65%;
-    background-color: #ffffff;
-    
-   
-}
 
 .h1{
     font-size: 2.5rem;
@@ -44,7 +28,7 @@ body{
 }
 .info-img>img{
     border-radius: 50%;
-    width: 50vw;
+    width: 45vw;
 }
 .h2{
     font-size: 1.5rem;
