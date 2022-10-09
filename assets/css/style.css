@@ -386,6 +386,7 @@ label{
     .nav-item{
         padding-left: 1.25rem;
         font-size: 1rem;
+        color: var(--white);
     }
 
 
@@ -426,7 +427,6 @@ label{
         gap: 3rem;
         width: 100%;
        
-        background-color: aqua;
     
     }
 
@@ -442,7 +442,6 @@ label{
     }
 
     .about-container{
-        background-color: rgb(228, 13, 167);
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -451,14 +450,12 @@ label{
         max-width: 100%;
     }
     .about-h2{
-        background-color: blue;
         text-align: center;
         justify-self: center;
         width: 100%;
     }
     
     .about-p{
-        background-color: brown;
         text-align: center;
         justify-self: center;
         width: 80%;
@@ -475,7 +472,6 @@ label{
 
     .habilidades {
 
-    background-color: rgb(209, 22, 166);   
     text-align:center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -486,7 +482,6 @@ label{
 
         .habilidades-h2{
             grid-column: 1 / 3;
-            background-color: brown;
             
             text-align: center;
         }
@@ -494,7 +489,6 @@ label{
         
 
         .motion-design{
-            background-color: darkblue;
             width: 40%;
             align-items: center;
             margin-left: 20%;
@@ -502,7 +496,6 @@ label{
             
         }
         .mobile-app{
-            background-color: darkblue;
         
             width: 40%;
             align-items: center;
@@ -510,13 +503,11 @@ label{
            
         }
         .creacion{
-            background-color: darkblue;
             width: 40%;
             align-items: center;
             margin-left: 40%;
         }
         .desarrollo-web{
-            background-color: darkblue;
             width: 40%;
             align-items: center;
             margin-left: 20%;
@@ -525,7 +516,6 @@ label{
 
 
         .experiencia-container{
-            background-color: cadetblue;
             max-width: 55vw;
             gap: 0.5rem;
             display: grid;
@@ -557,7 +547,6 @@ label{
         }
 
         .portafolio-container{
-            background-color: darkgoldenrod;
             display: flex;
             flex-direction: row;
             justify-items: center;
@@ -571,7 +560,6 @@ label{
             text-align: center;
         }
         .img-container{
-            background-color: chartreuse;
             max-width: 27%;
         }
 
@@ -612,6 +600,10 @@ label{
 
         .celular-img{
             padding: 14%;
+        }
+
+        .autor{
+            font-size: 1rem;
         }
     
 }
