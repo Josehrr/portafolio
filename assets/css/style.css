@@ -28,7 +28,7 @@ body{
 }
 .info-img>img{
     border-radius: 50%;
-    width: 50vw;
+    width: 40vw;
     height: 38vh;
 }
 .h2{
@@ -304,8 +304,13 @@ body{
 }
 
 .autor{
-    height: 5vh;
+    margin-left: 30%;
+    height: 4vh;
     grid-column: span 2;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 0.5rem;
     position: relative;
     top: 7vh;
 }
@@ -323,10 +328,9 @@ body{
 }
 .heart{
     position: absolute;
-    margin-left: 58vw;
-    bottom: 1.5vh;
-    width: 5vw;
-    height: 3vh;
+    
+    width: 4vw;
+    height: 2svh;
 }
 
 
