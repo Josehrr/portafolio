@@ -13,11 +13,38 @@
 body{
     font-family: 'Rubik', sans-serif;
     background-color: var(--black);
-    color: white;
+    color: var(--white);
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.left-circle{
+    background-color: aqua;
+    position: absolute;
+    height: 15%;
+    width: 20%;
+    top: 72%;
+    margin-left: 82%;
 
+}
+
+.left-circle>img{
+    max-width: 90%;
+    min-height: 90%;
+}
+.right-circle{
+    background-color: bisque;
+    position: absolute;
+    height: 15%;
+    width: 20%;
+    top: 98vh;
+    margin-left: 0vw;
+
+}
+
+.right-circle>img{
+    max-width: 90%;
+    min-height: 90%;
+}
 .h1{
     font-size: 2.5rem;
     font-weight: 600;
@@ -45,6 +72,7 @@ body{
 }
 
 .container{
+    background-color: rgb(200, 23, 56);
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -130,6 +158,8 @@ body{
     
 
     .mobile-app{
+       
+       
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -298,12 +328,30 @@ body{
 }
 
 .autor{
+    height: 5vh;
     grid-column: span 2;
+    position: relative;
 }
 .autor>p{
     font-size: 1rem;
     color: var(--gray);
 }
+.autor img{
+   
+   max-width: 100%;
+   max-height: 100%;
+   color: var(--gray);
+   border-color: var(--gray);
+   
+}
+.heart{
+    position: absolute;
+    margin-left: 58vw;
+    bottom: 1.5vh;
+    width: 5vw;
+    height: 3vh;
+}
+
 
 
 
