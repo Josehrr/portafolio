@@ -29,7 +29,7 @@ body{
 .info-img>img{
     border-radius: 50%;
     width: 45vw;
-    height: 30svh;
+    height: 30vh;
 }
 .h2{
     font-size: 1.5rem;
@@ -304,7 +304,7 @@ body{
 }
 
 .autor{
-    margin-left: 30%;
+   justify-content: center;
     height: 4vh;
     grid-column: span 2;
     display: flex;
@@ -332,6 +332,8 @@ body{
     width: 4vw;
     height: 2svh;
 }
+
+
 
 
 
