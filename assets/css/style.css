@@ -431,7 +431,7 @@ label{
 
     .info-img>img{
         border-radius: 50%;
-        width: 15vw;
+        width: 100%;
         height: 30vh;
     }
     .h1{
