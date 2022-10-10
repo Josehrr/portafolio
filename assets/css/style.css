@@ -592,7 +592,7 @@ label{
 
         .experiencia-container{
             max-width: 100%;
-            gap: 1  	                                        rem;
+            gap: 1rem; 	                                        rem;
             display: grid;
             align-items: center;
             grid-template-columns: 1fr 1fr;
